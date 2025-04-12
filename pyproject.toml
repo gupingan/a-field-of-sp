@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "a-field-of-sp"
+version = "1.0.0"
+description = ""
+authors = ["gupingan <g332920287@foxmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.13"
+pyside6 = "6.6.3"
+loguru = "0.7.2"
+requests = "2.32.3"
+qrcode = "7.4.2"
+pillow = "10.3.0"
+wmi = "1.5.1"
+pyee = "^11.1.0"
+toml = "^0.10.2"
+pyppeteer = "^2.0.0"
+pywin32 = "^306"
+xhs = {path = "pack/packages/xhs-1.0.8-py3-none-any.whl"}
+
+[[tool.poetry.source]]
+name = "tencent-pypi"
+url = "http://mirrors.cloud.tencent.com/pypi/simple/"
+priority = "primary"
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "6.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -31,7 +31,7 @@ poetry lock
 poetry install
 ```
 
-> 关于 `y-xhs` 包，已经不再免费共享，具体请查看：[关于 Donate](https://github.com/gupingan/xhshttps/issues/5)
+> 关于 `y-xhs` 包，因为本人受到了公检法的制裁，不再开发任何爬虫项目，希望各位好自为之
 
 项目中，默认不上传 `node` 文件夹的。在您打赏后，请您在 issues 中特别告知你需要的不仅仅是 y-xhs，还有 node 目录以及打包配置。该目录在您接收到后，请按一下路径复制：
 
